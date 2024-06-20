@@ -6,7 +6,7 @@ TomatoLeafClassification is a machine learning project that analyzes images of t
 
 ## Dataset
 
-The dataset used in this project is sourced from Kaggle ( https://www.kaggle.com/datasets/arjuntejaswi/plant-village ) and contains labeled images of tomato leaves across ten different classes:
+The dataset used in this project is sourced from [Kaggle](https://www.kaggle.com/datasets/arjuntejaswi/plant-village) and contains labeled images of tomato leaves across ten different classes:
 
 1. Bacterial Spots
 2. Early Blight
@@ -57,33 +57,6 @@ Install the required packages:
 pip install -r requirements.txt
 ```
 
-### Usage
-
-1. **Prepare the Dataset**: Download the dataset from Kaggle and place it in the appropriate directory.
-2. **Train the Model**: Run the training script to train the neural network on the dataset.
-
-```bash
-python train.py
-```
-
-3. **Evaluate the Model**: After training, evaluate the model's performance using the test set.
-
-```bash
-python evaluate.py
-```
-
-4. **Predict**: Use the trained model to classify new images of tomato leaves.
-
-```bash
-python predict.py --image_path path_to_image
-```
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
-
-## License
-
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
@@ -93,5 +66,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - The open-source community for the numerous tools and libraries that made this project possible.
 
 ---
-
-Feel free to reach out with any questions or feedback. Happy coding!
